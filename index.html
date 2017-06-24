@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<script src="getdata.js"></script> 
+
+<h1 align="center"><span style="color:white"><span>WebDataLogger</span></span> <span style="color: #ff0000">!</span> <span style="color: #40e0d0">;-)</span></h1>
+
+
+<div id="form">
+    <form>
+        <fieldset>
+            <label for="Date">Date</label>
+            <input readonly name="Date" id="date"/>
+            <label for="Time">Time</label>
+            <input readonly name="Time" id="time"/>
+            <label for="pH">pH</label>
+            <input readonly name="pH" id="pH"/>
+            <label for="O2">O2</label>
+            <input readonly name="O2" id="O2"/>
+            <label for="x3">x3</label>
+            <input readonly name="x3" id="x3"/>
+			<label for="x4">x4</label>
+            <input readonly name="x4" id="x4"/>
+			<label for="x5">x5</label>
+            <input readonly name="x5" id="x5"/>
+        </fieldset>
+    </form>
+</div>
+
+
+
+<form action="log_parameters.csv" method="get">
+    <input type="submit" value="Download Logged data" 
+         name="Submit" id="frm1_submit" class ="button"/>
+</form>
+
+<br></br>
+
+<form action="current_data.txt" method="get">
+    <input type="submit" value="Download current_data.txt" 
+         name="Submit" id="frm1_submit" class ="button"/>
+</form>
+
+<br></br>
+<br></br>
+
+<div class="github">&nbsp;Github URL : <a href="https://github.com/RealTimeEngineers/WebDataLogger/" target="_blank">https://github.com/RealTimeEngineers/WebDataLogger/</a></div>
+
+</body>
+</html>

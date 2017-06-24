@@ -1,0 +1,49 @@
+body  {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+#form {
+    height: 300px;
+    width: 500px;
+    margin-top: 0px;
+    padding: 0px;
+    text-align:left;
+    border:0px;
+    background-image:inherit;
+}
+label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight:bold;
+    color:yellow;
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+input {
+    height: 20px;
+    width: 200px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    float: left;
+}
+
+fieldset { 
+border:None;
+}
+
+input[type=button] {
+    float:none;
+}
+
+.button {
+	border-width:2px;
+	border-style:outset;
+	border-color:buttonface;
+}
